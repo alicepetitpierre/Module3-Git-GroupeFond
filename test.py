@@ -20,3 +20,13 @@ def integral(a, b, n):
     
     integral *= h
     return integral
+
+
+def f(x):
+    """
+    Fonction à intégrer.
+    
+    :param x: Valeur d'entrée
+    :return: Valeur de la fonction f(x) = x^2
+    """
+    return x**2
